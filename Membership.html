@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="modernizr.custom.05819.js"></script>
+    <link rel="stylesheet" href="membership_1.css" />
+</head>
+<body>
+    <nav>
+        <ul id="navBar">
+            <li><a href="home_page.html">MENU</a></li>
+            <li><a href="aboutUs.html">ABOUT US</a></li>
+            <li><a href="Neworder.html">ORDER</a></li>
+            <li><a href="calendar0.html">SCHEDULE</a></li>
+            <li><a href="content/assignment01.html">BMR</a></li>
+            <li><a href="Membership.html">SIGN UP</a></li>
+            <li><a href="map.html">MAP</a></li>
+        </ul>
+    </nav>
+    <br />
+    <br />
+    <form>
+        <fieldset class="text" id="name">
+            <legend>Member Registration: </legend>
+            <p>Please complete all the fields below: </p>
+            <br />
+
+            <label for="fname">First name:</label>
+            <input type="text" id="Fname" />
+            <p id="FnameError" class="errorMsg"></p>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" />
+            <p id="lnameError" class="errorMsg"></p>
+
+            <label for="address">Address:</label>
+            <input type="text" id="addressName" />
+            <p id="addressNameError" class="errorMsg"></p>
+
+            <label for="city">City:  </label>
+            <input type="text" id="cityName" />
+            <p id="cityNameError" class="errorMsg"></p>
+
+
+
+            <label for="postalCod">Postal code:  </label>
+            <input type="text" id="pcode" />
+            <p id="postalCodError" class="errorMsg"></p>
+
+            <label for="province">Province:</label>
+
+            <select id="provinceT" name="proviceT" required="required">
+
+                <option value=""></option>
+                <option value="QC">QC</option>
+                <option value="ON">ON</option>
+                <option value="SK">SK</option>
+                <option value="AB">AB</option>
+                <option value="BC">BC</option>
+                <option value="MB">MB</option>
+                <option value="ND">ND</option>
+                <option value="NL">NL</option>
+                <option value="NS">NS</option>
+                <option value="NT">NT</option>
+                <option value="NU">NU</option>
+                <option value="TE">TE</option>
+                <option value="YT">YT</option>
+
+            </select>
+            <p id="provinceError" class="ProvinceErrorMsg"></p>
+
+            <label for="Age">Age: </label>
+            <input type="number" id="age" />
+            <p id="ageError" class="errorMsg"></p>
+
+
+            <label for="pw1">Password</label>
+            <input type="password" id="pw1" />
+
+            <label for="pw2">Password<br />(confirm)</label>
+            <input type="password" id="pw2" />
+            <p id="passwordError" class="errorMsg"></p>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="emailbox" />
+            <p id="emailError" class="errorMsg"></p>
+
+            <input type="button" id="submit" class="button2" value="PREVIEW" onclick="setUpPages()" />
+            <input type="reset" id="reset" class="button1" value="CLEAR" />
+        </fieldset>
+    </form>
+
+    <section id="profile">
+        <h4>Profile Confirmation</h4>
+        <div id="FnameSection">
+            <h4>First name</h4>
+            <p id="profileFname"></p>
+        </div>
+
+        <div id="lnameSection">
+            <h4>Last name:</h4>
+            <p id="profileLname"></p>
+        </div>
+        <div id="AddressSection">
+            <h4>Address:</h4>
+            <p id="profileAddress"></p>
+        </div>
+        <div id="CitySection">
+            <h4>City:</h4>
+            <p id="profileCity"></p>
+        </div>
+        <div id="PostalSection">
+            <h4>Postal code:</h4>
+            <p id="Profilecode"></p>
+        </div>
+
+        <div id="ProvinceSection">
+            <h4>Province:</h4>
+            <p id="Profileprovince"></p>
+        </div>
+        <div id="ageSection">
+            <h4>Age</h4>
+            <p id="profileAge"></p>
+        </div>
+
+        <div id="emailSection">
+            <h4>Email address</h4>
+            <p id="profileEmail"></p>
+        </div>
+    </section>
+    <footer>
+        <br>
+        <br>
+        <hr />
+        <p>Student: &copy;  Luana Cesar de Albuquerque Tavares</p>
+        <p> Student number: 301014021||Client-Side Web Development (SEC. 003) Winter 2020 </p>
+    </footer>
+    <script src="Membership.js"></script>
+</body>
+</html>

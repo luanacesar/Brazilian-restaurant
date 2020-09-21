@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" type="text/css" href="indexx.css" />
+    <script src="modernizr.custom.05819.js"></script>
+</head>
+<body>
+    <h1>Brazilian Flavour</h1>
+
+    <nav>
+        <ul id="navBar">
+            <li style="float:left;background-color:white;"><a href="index.html">Home</a> </li>
+            <li style="float:left;background-color:white;"><a href="About_us.html">About Us</a></li>
+            <li style="float:right;background-color:white;border:solid"><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div id="openweathermap-widget-19"></div>
+    <script>
+        window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
+        window.myWidgetParam.push({ id: 19, cityid: '6167865', appid: '8d25671c5721348952c1c640fcf80f4f', units: 'metric', containerid: 'openweathermap-widget-19', });
+        (function () {
+            var script = document.createElement('script');
+            script.async = true; script.charset = "utf-8";
+            script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(script, s);
+        })();</script>
+
+    <footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr />
+        <p>Student: &copy;  Luana Cesar de Albuquerque Tavares</p>
+        <p> Student number: 301014021||Client-Side Web Development (SEC. 003) Winter 2020 </p>
+    </footer>
+</body>
+</html>

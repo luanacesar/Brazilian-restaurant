@@ -1,0 +1,201 @@
+﻿
+
+body {
+    line-height: 1;
+    width: 100%;
+    background: -webkit-linear-gradient(rgb(0, 255, 33), white) no-repeat;
+    margin: 0 auto;
+    font-family: "Maven Pro", arial, helvetica, sans-serif;
+    font-weight: 400;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.reteteu.com.br/images/gallery/06.jpg);
+    /*overflow:hidden;*/
+}
+
+#name label {
+
+    padding:5px;
+    /*display: block;*/
+    float: left;
+    clear: left;
+    margin-bottom: 1em;
+}
+
+#name input,select {
+    padding:1%;
+    display: block;
+    width: 300px;
+    margin-left: 135px;
+    margin-bottom: 2em;
+}
+
+#idFname label {
+    display: block;
+    float: left;
+}
+
+#idlname input {
+    display: block;
+    margin-left: 130px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/* container */
+#container {
+    -webkit-box-shadow: 10px 0px 10px rgba(50, 50, 50, 1), -10px 0px 10px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 10px 0px 10px rgba(50, 50, 50, 1), -10px 0px 10px rgba(50, 50, 50, 1);
+    box-shadow: 10px 0px 10px rgba(50, 50, 50, 1), -10px 0px 10px rgba(50, 50, 50, 1);
+}
+
+/* page header */
+
+legend {
+    background-color: #F4EEE9;
+    font-size: larger;
+    font-family: Verdana;
+    color: black;
+    text-align: center;
+    text-overflow: initial;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 100px;
+}
+
+
+caption {
+    text-align: center;
+}
+/* navigation */
+form {
+    height: 10px;
+    overflow: unset;
+    width: 80%;
+    margin:auto;
+}
+
+nav {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: black;
+    background-color: floralwhite;
+    opacity: 0.7;
+}
+
+    nav ul {
+        text-align: center;
+    }
+
+        nav ul li {
+            display: inline-block;
+            padding: 8px 15px;
+            margin: 0 3px;
+            z-index: 2;
+        }
+
+            nav ul li:hover {
+                background: #A9845E;
+                color: rgb(235,93,52);
+            }
+
+
+fieldset {
+    text-align:center;
+    background-color: #A9845E;
+    opacity: 0.93;
+    margin-bottom: 5px;
+    margin:auto;
+    margin-top: 20%;
+}
+
+label {
+    display: block;
+    padding: 10%;
+    margin-bottom: 5%;
+    margin-top: 2px;
+
+}
+input{
+
+    display:inline-block;
+    margin-bottom:5px;
+    margin-left:15px;
+
+}
+#profile {
+    background-color: ivory;
+    margin-top: 5%;
+    margin-right:10%;
+    width: 20%;
+    border: 1px solid black;
+    padding: 20px;
+    opacity: 0.7;
+    /*-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;*/
+}
+section {
+    background-color: ivory;
+    margin-bottom: 200px;
+    float: right;
+}
+
+.button1 {
+    background-color: ivory;
+    color: rgba(0,63,71,1);
+    border-color: rgba(0,63,71,.2);
+}
+
+.button2 {
+
+    background-color: ivory;
+    color: rgba(133,32,28,1);
+    border-color: rgba(133,32,28,.2);
+}
+footer {
+    margin-top: 1500px;
+    background: #A9845E;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+}

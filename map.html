@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" type="text/css" href="map.css" />
+    <script src="modernizr.custom.05819.js"></script>
+</head>
+
+<body>
+    <h1>Brazilian Flavour</h1>
+    <nav>
+        <ul id="navBar">
+            <li><a href="home_page.html" style="text-decoration:none;color:black;">MENU</a></li>
+            <li><a href="aboutUs.html" style="text-decoration:none;color:black;">ABOUT US</a></li>
+            <li><a href="Neworder.html" style="text-decoration:none;color:black;">ORDER</a></li>
+            <li><a href="calendar0.html" style="text-decoration:none;color:black;">SCHEDULE</a></li>
+            <li><a href="content/assignment01.html" style="text-decoration:none;color:black;">BMR</a></li>
+            <li><a href="Membership.html" style="text-decoration:none;color:black;">SIGN UP</a></li>
+        </ul>
+    </nav>
+    <br />
+
+    <fieldset>
+        <legend> Location </legend>
+        <div id="caption">
+            <div class="imag">
+                <img src="12.jpg" id="imgRest" width="700" height="350" />
+                <h5>Address: R. Prof. Otávio de Freitas, 256 - Encruzilhada, Recife - PE, 52041-110, Brasil</h5>
+                <div id="map">
+                </div>
+            </div>
+        </div>
+    </fieldset>
+
+    <footer>
+        <br>
+        <hr />
+        <p>Student: &copy;  Luana Cesar de Albuquerque Tavares</p>
+        <p> Student number: 301014021||Client-Side Web Development (SEC. 003) Winter 2020 </p>
+    </footer>
+    <script src="home.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVMp9o16ELMg8wDvphCbEYqML7xxArO0U&callback=initMap" async defer></script>
+    <script src="map.js"></script>
+</body>
+</html>
