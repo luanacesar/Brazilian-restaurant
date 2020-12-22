@@ -13,17 +13,6 @@ h5 {
    border:solid;
 }
 
-nav {
-    width: 100%;
-    color: black;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 900;
-    text-align: center;
-    color: black;
-    background-color: floralwhite;
-    opacity: 0.7;
-}
 .main {
     margin-left: 30px;
     margin-right: 30px;
