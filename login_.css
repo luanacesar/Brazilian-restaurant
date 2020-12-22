@@ -10,6 +10,11 @@ h5{
     font-family:Arial;
     background-color:white;
 }
+nav {
+    color: black;
+    background-color: floralwhite;
+    opacity: 0.7;
+}
   nav ul {
         text-align: center;
     }
