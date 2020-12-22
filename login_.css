@@ -10,18 +10,18 @@ h5{
     font-family:Arial;
     background-color:white;
 }
-
 body {
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
     line-height: 1;
-    width: 900px;
-    margin: 0 auto;
+    margin: auto;
     font-family: "Maven Pro", arial, helvetica, sans-serif;
-    /*font-weight: 400;*/
-    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(https://www.reteteu.com.br/images/gallery/12.jpg);
 }
+
 
 #username,  label {
   
