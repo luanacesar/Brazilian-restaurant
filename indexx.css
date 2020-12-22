@@ -27,15 +27,6 @@ h5 {
     margin-top:100px;
     text-align:center;
 }
-#navi {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-    #navi li {
-        display: inline-block;
-        margin-left: 20px;
-    }
 
 #navitemp {
     display: inline;
