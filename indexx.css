@@ -39,29 +39,13 @@ h5 {
         border-radius: 8px;
         color: white;
     }
+
 nav {
     color: black;
     background-color: floralwhite;
     opacity: 0.7;
 }
-    nav ul {
-        text-align: center;
-    }
-        nav ul li {
-            display: inline-block;
-            padding: 18px 15px;
-            margin: 0 3px;
-            z-index: 2;
-        }
-
-            nav ul li:hover {
-                background: #A9845E;
-                color: rgb(235,93,52);
-            }
-
-
-
-    nav ul {
+  nav ul {
         text-align: center;
     }
 
@@ -73,8 +57,8 @@ nav {
         }
 
             nav ul li:hover {
-                background: #A9845E;
-                color: rgb(235,93,52);
+                background: #e6ddcc;
+                color: rgb(230, 221, 204);
             }
 
 body {
